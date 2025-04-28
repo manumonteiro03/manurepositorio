@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(44, 4, 39, 0.822);
+    background-attachment: fixed;
+    color: bisque;
+    margin: 0;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(253, 249, 249);
+    text-decoration: nome;
+}
+
+.titulo-destaque {
+     color:rgb(116, 14, 14);
+}
+.conteudo {
+       height: auto;
+       flex-direction: column;
+       margin: 10%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-bottom: 15px;
+}
+
+.apresentacao-conteudo {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: auto;
+gap: 40px;
+order: 2;
+}
+    
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
